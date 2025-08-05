@@ -6,21 +6,38 @@
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "composite": true,
+    "noEmit": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
-    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "jsx": "react-jsx",
 
-    /* Linting */
+    /* Configuraciones ESTRICTAS heredadas */
     "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Linting estricto */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
     "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
   "include": ["src"]

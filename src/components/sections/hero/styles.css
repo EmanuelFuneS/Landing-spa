@@ -1,0 +1,18 @@
+.hero-container {
+  background-color: black;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  /* Estilos para tablets */
+  .hero-container {
+    width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Estilos para ordenadores */
+  .hero-container {
+    width: 1100px;
+  }
+}

@@ -1,0 +1,28 @@
+.nav-container {
+  height: 80px;
+  color: black;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+}
+
+.link-list {
+  display: flex;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  /* Estilos para tablets */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Estilos para ordenadores */
+  .container {
+    width: 1100px;
+  }
+}
