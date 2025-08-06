@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+generate_test_commits.sh
+last_commits_mod.sh
