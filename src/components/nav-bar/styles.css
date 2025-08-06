@@ -1,4 +1,5 @@
 .nav-container {
+  min-width: 50%;
   height: 80px;
   color: black;
   width: auto;
@@ -15,8 +16,8 @@
 
 @media (min-width: 768px) {
   /* Estilos para tablets */
-  .container {
-    width: 700px;
+  .nav-container {
+    min-width: 700px;
   }
 }
 
