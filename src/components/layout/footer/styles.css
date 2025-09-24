@@ -1,6 +1,4 @@
 .footer-container {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   color: white;
   padding: 1rem;
@@ -8,6 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #fff; /* Asegura fondo visible */
+  z-index: 100; /* Mantiene el footer encima de otros elementos */
   color: black;
 }
 

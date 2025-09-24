@@ -1,19 +1,53 @@
-.card-service-container {
+#card-service-container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.image {
+#image-container {
+  height: 50%;
+  width: 100%;
+  background-color: lightgray;
 }
 
-.wrapper {
+#info-wrapper {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: "100%";
 }
 
-.title {
+#title {
+  color: #7d2410;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
 }
 
-.subtitle {
+#subtitle {
+  color: #263238;
+  font-size: 0.7rem;
 }
 
-.text {
+#description {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  color: #263238;
+  font-size: 0.8rem;
+  width: 80%;
 }
-.button-card {
+#button-card {
+  width: 140px;
+  height: 140px;
+  padding: 10px;
+  color: #263238;
+  background-color: #ff9a6c;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1rem;
 }

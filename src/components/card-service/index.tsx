@@ -1,28 +1,28 @@
+import "./styles.css";
+
 interface CardServiceProps {
-  image: string;
   title: string;
   subtitle: string;
-  text: string;
-  buttonText: string;
+  description: string;
+  imageUrl: string;
 }
 
 const CardService = ({
-  image,
   title,
   subtitle,
-  text,
-  buttonText,
+  description,
+  imageUrl,
 }: CardServiceProps) => {
   return (
-    <div className="card-service-container">
-      <div className="image-container">
-        <img src={image} className="image" />
+    <div id="card-service-container">
+      <div id="image-container">
+        <img src={imageUrl} id="image" />
       </div>
-      <div className="wrapper">
-        <h3 className="title">{title}</h3>
-        <span className="subtitle">{subtitle}</span>
-        <p className="text">{text}</p>
-        <button className="button-card">{buttonText}</button>
+      <div id="info-wrapper">
+        <p id="title">{title}</p>
+        <span id="subtitle">{subtitle}</span>
+        <p id="description">{description}</p>
+        <button id="button-card">Book Now</button>
       </div>
     </div>
   );

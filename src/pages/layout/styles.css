@@ -1,10 +1,16 @@
 .layout-container {
   background: linear-gradient(#fffaf7, #ffffff);
   max-width: auto;
-  height: 100vh;
+  height: auto;
   width: 100vw;
   margin: 0 auto;
   text-align: center;
+}
+.layout-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (min-width: 768px) {

@@ -1,6 +1,7 @@
 .learn-more-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   background-color: #ffe7dd;
 }
 
